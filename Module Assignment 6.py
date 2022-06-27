@@ -28,9 +28,9 @@ s = timedelta(days=100, seconds=36000, microseconds=7800000000)
 print(s.days,s.seconds,s.microseconds)
 
 datetime_object = datetime.now()
-def heightandtime(x,y,z):
+def heightplustime(x,y,z):
     print('The height is ',x,' feet and ',y,' inches.')
     print(z)
 x=input('Input Feet:')
 y=input('Input Inches: ')
-heightandtime(x,y,datetime_object)
+heightplustime(x,y,datetime_object)
